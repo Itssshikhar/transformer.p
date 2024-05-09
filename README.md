@@ -25,7 +25,7 @@ The Generative Pre-trained Transformer (GPT) model is a variant of the Transform
 BERT (Bidirectional Encoder Representations from Transformers) is a Transformer-based machine learning model for natural language processing tasks.
 
 ## Implementation
-The project is implemented in Python using NumPy for numerical computations.
+The project is implemented in Python using Pytorch for numerical computations.
 
 ### Files
 - `attention.py`: Implementation of self-attention mechanism.

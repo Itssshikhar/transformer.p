@@ -51,7 +51,7 @@ class BidirectionalAttention(nn.Module):
 
         return self.out_drop(self.Wo(x))
 
-class CasualSelfAttention(nn.Module):
+class CausalSelfAttention(nn.Module):
     def __init__(self, hidden_size: int, num_heads: int, context_size: int, attn_dropout: float = 0.1, out_dropout: float = 0.1, bias: bool = True):
         super().__init__()
         assert hidden_size % num_heads == 0
